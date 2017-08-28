@@ -1,0 +1,15 @@
+@import './hack.less';
+#index {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .fade-enter-active, .fade-leave-active {
+    transition: all 1.2s;
+    margin-left: -250px;
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+    margin-left: 300px;
+  }
+}
