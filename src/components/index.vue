@@ -17,7 +17,6 @@
       return {
         winWidth1: '',
         winHeight1: '',
-
       }
     },
     methods: {},

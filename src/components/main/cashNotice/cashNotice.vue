@@ -67,7 +67,7 @@
   </div>
 </template>
 <style lang="less">
-  @import '../../../less/adverOrder.less';
+  @import '../../../less/cashNotice.less';
 </style>
 <script>
   export default {

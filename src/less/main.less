@@ -1,17 +1,50 @@
 @import './hack.less';
-#main{
-  background: #eee;
-  .el-menu{
+
+#main {
+  .el-menu {
     border-radius: 0;
   }
-  #main_right{
-    text-align: center;
-    margin: 20px;
-    background: white;
-    padding-top: 20px;
-    h2{
-      margin-bottom: 20px;
+  .tac {
+    .tac_left {
+      height: 100%;
+      max-width: 198px;
+      overflow: hidden;
     }
+    >ul {
+      min-width: 190px;
+      .el-menu-item, .el-submenu__title{
+        height: 48px;
+        line-height: 48px;
+      }
+    }
+  }
+  #main_right {
+    .divPadding{
+      position: relative;
+      margin: 20px;
+      padding-top: 20px;
+      > div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        text-align: center;
+        width: 100%;
+        h2 {
+          margin-bottom: 20px;
+        }
+      }
+    }
+
+  }
+
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
+  #main_right {
+
   }
 }
 

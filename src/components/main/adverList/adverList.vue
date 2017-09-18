@@ -30,8 +30,6 @@
             <el-date-picker v-model="form.date" type="daterange" placeholder="选择日期范围"></el-date-picker>
           </el-form-item>
         </el-col>
-      </el-row>
-      <el-row>
         <el-col :span="5">
           <el-form-item label="投放地区范围：">
             <el-select v-model="form.areaArray" multiple placeholder="请选择投放地区范围">
